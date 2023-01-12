@@ -11,3 +11,8 @@
 * friday
 
 ---
+
+```
+wow a code block
+
+```
