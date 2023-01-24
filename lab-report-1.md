@@ -38,6 +38,13 @@ Now that we are in the server, we can use bash commands to explore the file arch
 
 <img width="369" alt="Screen Shot 2023-01-12 at 11 26 52 AM" src="https://user-images.githubusercontent.com/43154527/212162371-9df7cb3d-203b-465b-a6e7-6bc266f225d1.png">
 
+What do these commands mean?
+
+* ls: prints names of all files and folders in the current directory
+* pwd: prints full path of the current working directory
+* cd [directory]: changes current working directory to 
+* .. : parent directory
+* . :current directory
 
 ---
 That's the end of lab 1!
