@@ -6,6 +6,11 @@ February 10, 2023
 
 This command lets you search the directory by file name, and it returns a complete list of file paths that fulfill the search. 
 search_pattern is the search string to search for the file. [1]
+
+This command is helpful for looking for specific files where you know the name/path to the file in a repository. In a case where you aren't sure what the exact path to the file is, as it will return all searches that match the search pattern and the path to those files. The pattern search allows for names in different folders to be found, and returns all file paths that match this search. 
+
+Here are some usage examples. 
+
 ```
 // ex1: search for txt files that have Nepal in the file name
 $ find written_2 -name *Nepal*.txt 
@@ -25,6 +30,18 @@ written_2/travel_guides/berlitz2/China-WhatToDo.txt
 ### -type [search_type]
 This command lets you search the directory by type as defined below. [1][2]
 <img width="783" alt="Screen Shot 2023-02-10 at 6 03 25 PM" src="https://user-images.githubusercontent.com/43154527/218233347-34fd18ef-d066-49ef-841f-82da7a9e4338.png">
+
+
+This command is useful for searching through the directory by type. Of these options, the most commonly used for general file search are -d and -f. 
+
+The -d option is lists all the possible directory paths inside a given directory, which is useful for finding all of the sub folders in a directory and their paths in an unknown file structure. Being able to list all the subfolders of a directory lets you see the structure of the directory without it being cluttered by loose files in each directory. 
+
+-f returns the list of all files in a directory, which is useful for searching for all the files paths in a directory, regardless of the hierarchy inside the directory. In a case you only care about the files in a directory (and not where they are located) and want to figure out how many actual files you have in a directory, you can access them all using this command. 
+
+
+
+Here are some usage examples. 
+
 ```
 // ex1: search for all regular files
 $ find written_2 -type f 
@@ -278,6 +295,11 @@ written_2/travel_guides/berlitz2
 This command returns all the filepaths that do not satisfy the command. [1]
 
 
+This command woudl be useful in a case where you want to list all the code (ie c++ files and header files) files in a directory but want to avoid your text data files. Using -not would let you avoid the text files. Similarly, our written_2 directory is filled with directories and text files. If we only want to access all directories, this is another method to get this (ex1). And vice versa: to access all text files in a directory filled with text files, we can search for all the file paths that aren't of type directory (ex2). 
+
+
+Here are some usage examples. 
+
 ```
 // ex1: find all file paths of non-txt filepaths
 $ find written_2 -not -name "*.txt"
@@ -314,6 +336,13 @@ written_2/travel_guides/berlitz2
 
 ### [command1] -or [command2]
 This returns the file paths that satisfy either command1 or command2. [1]
+
+This command is helpful when you want to combine certain find commands. In the previous example of getting all code files (ie c++ files and header files) we can search for all the files that end in ".cpp" and ".h". 
+
+In a similar application, we can get the file paths in our directory that lead to either a directory or a text file that includes Nepal in the file name (ex1). We can also search in a similar fashion for the file paths to the text files that contain either Nepal or China in their file names. (ex2) Combining commands allows us to create more specific searches for our purposes and lets us customize searches using already existing commands. 
+
+
+Here are some usage examples. 
 
 ```
 // ex1: find file paths of non-files or file names that contain the word "Nepal"
