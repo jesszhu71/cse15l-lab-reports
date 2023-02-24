@@ -28,8 +28,7 @@ written_2/travel_guides/berlitz2/China-WhatToDo.txt
 ```
 
 ### -type [search_type]
-This command lets you search the directory by type as defined below. [1][2]
-<img width="783" alt="Screen Shot 2023-02-10 at 6 03 25 PM" src="https://user-images.githubusercontent.com/43154527/218233347-34fd18ef-d066-49ef-841f-82da7a9e4338.png">
+This command lets you search the directory by type as described below. [1][2]
 
 
 This command is useful for searching through the directory by type. Of these options, the most commonly used for general file search are -d and -f. 
