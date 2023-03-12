@@ -101,12 +101,26 @@ opening up the links with the corresponding inputs.
 
 <img width="1303" alt="Screenshot 2023-03-11 at 4 57 51 PM" src="https://user-images.githubusercontent.com/43154527/224518445-094e68ba-a234-4928-97b8-60eed3b68859.png">
 
+Example with [passing files](https://github.com/ucsd-cse15l-f22/list-methods-corrected). 
 
-<img width="830" alt="Screenshot 2023-03-11 at 2 46 32 PM" src="https://user-images.githubusercontent.com/43154527/224516040-01e88d8b-7338-41f6-a69d-7526345e2b6f.png">
+<img width="960" alt="Screenshot 2023-03-11 at 5 38 56 PM" src="https://user-images.githubusercontent.com/43154527/224519493-6139eeae-2b09-4080-94be-d9744eaf5abb.png">
 
-<img width="718" alt="Screenshot 2023-03-11 at 2 46 42 PM" src="https://user-images.githubusercontent.com/43154527/224516053-174f59da-8ef5-4fc6-a4cb-3d0e97044882.png">
+Example with a [failing files](https://github.com/ucsd-cse15l-f22/list-methods-lab3). 
 
-<img width="896" alt="Screenshot 2023-03-11 at 2 46 48 PM" src="https://user-images.githubusercontent.com/43154527/224516054-733bef72-1be0-4c5b-98b6-5eeb330c24ae.png">
+<img width="960" alt="Screenshot 2023-03-11 at 5 39 47 PM" src="https://user-images.githubusercontent.com/43154527/224519517-51004d0e-1b0b-493a-b2a9-61f4787c7509.png">
+
+Example with [files that don't compile](https://github.com/ucsd-cse15l-f22/list-methods-signature). 
+
+<img width="921" alt="Screenshot 2023-03-11 at 5 40 31 PM" src="https://user-images.githubusercontent.com/43154527/224519535-f92c9ab4-0a74-4d32-a539-8c94d3d21b16.png">
+
+
+Example with [files that have wrong type arguments](https://github.com/ucsd-cse15l-f22/list-methods-signature). 
+
+<img width="956" alt="Screenshot 2023-03-11 at 5 41 59 PM" src="https://user-images.githubusercontent.com/43154527/224519558-2b62f0c6-2d00-449a-8bd1-9730666cdc99.png">
+
+Example with [incorrect names files](https://github.com/ucsd-cse15l-f22/list-methods-filename). 
+
+<img width="959" alt="Screenshot 2023-03-11 at 5 42 23 PM" src="https://user-images.githubusercontent.com/43154527/224519568-50bd5a19-afd9-4b31-87e9-f0c9fde7f1f5.png">
 
 
 
